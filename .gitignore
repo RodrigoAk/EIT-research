@@ -1,0 +1,6 @@
+# Files to be ignored
+*.h5
+*.npy
+
+# Directories to be ignored
+__pycache__/
