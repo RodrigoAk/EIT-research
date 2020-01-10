@@ -5,3 +5,4 @@
 
 # Directories to be ignored
 __pycache__/
+data/
