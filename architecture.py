@@ -1,7 +1,7 @@
 from tensorflow import keras
 from tensorflow.keras.layers import Conv2D, MaxPool2D, Dense, Flatten
 
-class TIE:
+class EIT:
 	@staticmethod
 	def build(inputShape = (32,32,1), numberOfCondValues = 710):
 		model = keras.models.Sequential()
