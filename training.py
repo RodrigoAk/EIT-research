@@ -1,6 +1,6 @@
 import numpy as np
 from architecture import EIT
-from tensorflow.keras.callbacks import EarlyStopping
+from keras.callbacks import EarlyStopping
 from sklearn.model_selection import train_test_split
 
 batchSize = 250
