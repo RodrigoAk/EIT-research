@@ -1,10 +1,10 @@
-from tensorflow import keras
-from tensorflow.keras.layers import Conv2D, MaxPool2D, Dense, Flatten
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPool2D, Dense, Flatten
 
 class EIT:
 	@staticmethod
 	def build(inputShape = (32,32,1), numberOfCondValues = 710):
-		model = keras.models.Sequential()
+		model = Sequential()
 
 		model.add(Conv2D(filters = 30, 
 						 kernel_size = (5,5),
