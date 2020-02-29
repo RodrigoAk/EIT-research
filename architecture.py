@@ -25,7 +25,7 @@ class EIT:
 
 		model.add(Flatten())
 
-		model.add(Dense(units = numberOfCondValues//2,
+		model.add(Dense(units = 355,
 						activation = "relu"))
 
 		model.add(Dense(units = numberOfCondValues,
